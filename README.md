@@ -1,59 +1,57 @@
-DevForge
+🚀 DevForge
 
-DevForge is a Python CLI automation tool that helps developers quickly set up new projects.
+A Python CLI automation tool for quickly setting up developer projects.
 
-It can automatically:
+✨ Features
 
-Create project folders
-Create Python virtual environments
-Initialize Git repositories
-Install Python packages
-Generate requirements.txt
-Create starter files like:
+✅ Create project folders automatically
+✅ Create Python virtual environments
+✅ Initialize Git repositories
+✅ Install multiple Python packages
+✅ Generate requirements.txt automatically
+✅ Create starter files:
+
 README.md
 .gitignore
 .env
 main.py
-Features
-Automated project setup
-Virtual environment creation
-Git initialization
-Multi-package installation
-Automatic requirements.txt generation
-Starter file generation
-Beginner-friendly CLI workflow
-Technologies Used
+🛠️ Technologies Used
 Python
-os module
-subprocess module
-pathlib module
-sys module
-Installation
-
-Clone the repository:
-
+os
+subprocess
+pathlib
+sys
+⚡ Installation
+Clone the Repository
 git clone https://github.com/your-username/DevForge.git
-
-Move into the project directory:
-
+Move Into Project Directory
 cd DevForge
-
-Run the script:
-
+Run the Script
 python main.py
-Example Workflow
-Create a project folder
-Create a virtual environment
-Initialize Git
-Install packages
-Automatically generate requirements.txt
-Future Improvements
-Django/FastAPI/Flask project templates
-VS Code auto-launch
+🔥 Example Workflow
+✔ Create Project Folder
+✔ Create Virtual Environment
+✔ Initialize Git
+✔ Install Packages
+✔ Generate requirements.txt
+📦 Example Package Input
+django,requests,pillow
+📁 Generated Structure
+project/
+│
+├── venv/
+├── README.md
+├── .gitignore
+├── .env
+├── requirements.txt
+└── main.py
+🚧 Future Improvements
+Django project templates
+Flask/FastAPI setup
+VS Code auto-open
 Colored terminal output
-Automatic Git commits
-Better error handling
+Auto Git commits
 CLI arguments support
-Author
+👨‍💻 Author
 
-Made by Arpit 😄🔥
+Made with Python by Arpit 😄🔥
