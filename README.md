@@ -37,19 +37,19 @@ A Python CLI automation tool that helps developers quickly set up projects.
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/DevForge.git
+git clone https://github.com/ajarpitjain2007-afk/Dev_auto_tool.git
 ```
 
 ### Move Into Folder
 
 ```bash
-cd DevForge
+cd Dev_auto_tool
 ```
 
 ### Run The Script
 
 ```bash
-python main.py
+python small.py
 ```
 
 ---
