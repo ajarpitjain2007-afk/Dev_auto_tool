@@ -1,42 +1,70 @@
-🚀 DevForge
+# 🚀 DevForge
 
-A Python CLI automation tool for quickly setting up developer projects.
+A Python CLI automation tool that helps developers quickly set up projects.
 
-✨ Features
+---
 
-✅ Create project folders automatically
-✅ Create Python virtual environments
-✅ Initialize Git repositories
-✅ Install multiple Python packages
-✅ Generate requirements.txt automatically
-✅ Create starter files:
+## ✨ Features
 
-README.md
-.gitignore
-.env
-main.py
-🛠️ Technologies Used
-Python
-os
-subprocess
-pathlib
-sys
-⚡ Installation
-Clone the Repository
+* 📁 Create project folders
+* 🐍 Create Python virtual environments
+* 🔧 Initialize Git repositories
+* 📦 Install multiple Python packages
+* 📄 Generate `requirements.txt`
+* ⚡ Create starter files automatically
+
+### Generated Files
+
+* `README.md`
+* `.gitignore`
+* `.env`
+* `main.py`
+
+---
+
+## 🛠️ Built With
+
+* Python
+* `os`
+* `subprocess`
+* `pathlib`
+* `sys`
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
 git clone https://github.com/your-username/DevForge.git
-Move Into Project Directory
+```
+
+### Move Into Folder
+
+```bash
 cd DevForge
-Run the Script
+```
+
+### Run The Script
+
+```bash
 python main.py
-🔥 Example Workflow
-✔ Create Project Folder
-✔ Create Virtual Environment
-✔ Initialize Git
-✔ Install Packages
-✔ Generate requirements.txt
-📦 Example Package Input
+```
+
+---
+
+## 📦 Example Package Input
+
+```text
 django,requests,pillow
-📁 Generated Structure
+```
+
+---
+
+## 📁 Example Project Structure
+
+```text
 project/
 │
 ├── venv/
@@ -45,13 +73,33 @@ project/
 ├── .env
 ├── requirements.txt
 └── main.py
-🚧 Future Improvements
-Django project templates
-Flask/FastAPI setup
-VS Code auto-open
-Colored terminal output
-Auto Git commits
-CLI arguments support
-👨‍💻 Author
+```
+
+---
+
+## 🔥 Workflow
+
+```text
+✔ Create Folder
+✔ Create Virtual Environment
+✔ Initialize Git
+✔ Install Packages
+✔ Generate requirements.txt
+```
+
+---
+
+## 🚧 Future Improvements
+
+* Django/FastAPI templates
+* VS Code auto-open
+* Colored terminal output
+* Automatic Git commits
+* CLI argument support
+
+---
+
+## 👨‍💻 Author
 
 Made with Python by Arpit 😄🔥
+
